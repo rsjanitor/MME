@@ -3,8 +3,11 @@
 
 ![GUI](gui_ss.png "GUI") ![Summary Output](summary_output.png "Summary Output")
 
+## Dependencies
+- Download and place Dead's [utils.lua](https://me.deadcod.es/dead-utils) in your /Lua_Scripts/
+- api.lua (packaged with the MME zip) in /Lua_Scripts/
 
-## READ BEFORE RUNNING. MAY REQUIRE USER INPUT
+## READ BEFORE RUNNING - MAY REQUIRE USER INPUT
 - Create a preset with the necessary ingredients for the craft. I.E.: A stack of thread and 27 royal dragon leathers
 - Set presetKeyCode to the [virtual keycode](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes) for the hotkey where you've set. By default it's set to F9 (default preset 9)
 - Stand next to a bank booth before starting the script
