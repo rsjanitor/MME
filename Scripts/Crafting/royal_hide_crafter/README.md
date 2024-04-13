@@ -1,7 +1,7 @@
 # Royal Hide Crafter v1.0
 <link href="/CSS/Scripts/style.css" rel="stylesheet"/>
 
-<img src="gui.PNG"> <img src="summary_output.PNG">
+![GUI](gui.png "GUI") ![Summary Output](summary_output.png "Summary Output")
 
 
 ## READ BEFORE RUNNING. MAY REQUIRE USER INPUT
