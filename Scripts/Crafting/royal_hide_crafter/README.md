@@ -9,7 +9,8 @@
 
 ## READ BEFORE RUNNING - MAY REQUIRE USER INPUT
 - Create a preset with the necessary ingredients for the craft. I.E.: A stack of thread and 27 royal dragon leathers
-- Set presetKeyCode to the [virtual keycode](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes) for the hotkey where you've set. By default it's set to F9 (default preset 9)
+- Set presetKeyCode to the [virtual keycode](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes) for the hotkey of the preset you want to load. By default it's set to F9 (default preset 9)
+- Place the Royal Dragon Leather on your action bar
 - Stand next to a bank booth before starting the script
 
 ## Current features:
