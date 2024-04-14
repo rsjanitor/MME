@@ -1,5 +1,5 @@
 --[[
-Instructions & credits can be found in the github: https://github.com/rsjanitor/MME/tree/main/Scripts/herblore/herb_cleaner
+Instructions & credits can be found in the github: https://github.com/rsjanitor/MME/tree/main/Scripts/Herblore/herb_cleaner
 --]]
 
 
