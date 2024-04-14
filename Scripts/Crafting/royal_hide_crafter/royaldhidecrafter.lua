@@ -255,7 +255,7 @@ end
 local function selectLeatherArmour() 
     local counter = 0
     while API.Read_LoopyLoop() and counter < 3 do
-        API.DoAction_Interface(0xffffffff,0xffffffff,1,1371,22,craftItemIDs[craftItemName]["interface"],3808);
+        API.DoAction_Interface(0xffffffff,0xffffffff,1,1371,22,craftItemIDs[craftItemName]["interface"],API.OFF_ACT_GeneralInterface_route);
         UTILS.randomSleep(500)
         if API.VB_FindPSett(1170, -1, 0).state == craftItemIDs[craftItemName]["id"] then return true end
         counter = counter + 1
