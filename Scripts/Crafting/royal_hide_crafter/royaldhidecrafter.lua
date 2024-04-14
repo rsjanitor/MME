@@ -1,5 +1,5 @@
 --[[
-Instructions & credits can be found in the github: https://github.com/rsjanitor/MME/Scripts/Crafting/royal_hide_crafter
+Instructions & credits can be found in the github: https://github.com/rsjanitor/MME/tree/main/Scripts/Crafting/royal_hide_crafter
 --]]
 
 
