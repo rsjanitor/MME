@@ -19,6 +19,7 @@
 - Currently supports
   - &check; Avantoe
   - &check; Irit
+  - &check; Toadflax
 -  Banks at a Bank booth
 - Cleans the herbs in your inventory
 - Prints out summary to the rs2client console when the script terminates in an expected manner. 

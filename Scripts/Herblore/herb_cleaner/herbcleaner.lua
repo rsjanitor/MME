@@ -14,22 +14,24 @@ local UTILS = require("utils")
    Variables
  ]]--
 local scriptVersion = "1.0"
-local herbToClean = "Grimy avantoe"
-local cleanHerbName = "Clean avantoe"
--- The Key is the grimy herb name
--- The Value is the ID of the grimy herb
+local herbToClean = "Grimy toadflax"
+local cleanHerbName = "Clean toadflax"
+-- Key is the grimy herb name
+--Value is the ID of the grimy herb
 local ingredientIDs = {
    ["Grimy avantoe"] = 211,
-   ["Grimy irit"] = 209
+   ["Grimy irit"] = 209,
+   ["Grimy toadflax"] = 3049
 }
---The Key is the clean herb name
---The Value is the:
+--Key is the clean herb name
+--Value is the:
 --    ID - ID of the clean herb
 --    interface - ID of the herblore interface that corresponds to the clean herb
 --    guiName - The name you want to display on the GUI
 local cleanHerbIDs = {
     ["Clean avantoe"] = {id = 261, interface = 57, guiName = "Clean avantoe"},
-    ["Clean irit"] = {id = 259, interface = 49, guiName = "Clean irit"}
+    ["Clean irit"] = {id = 259, interface = 49, guiName = "Clean irit"},
+    ["Clean toadflax"] = {id = 2998, interface = 41, guiName = "Clean toadflax"}
 }
 
 local keepRunning = true
@@ -219,7 +221,7 @@ local function bank()
 
     local cleanedCount = API.InvItemcount_1(cleanHerbIDs[cleanHerbName]["id"])
     API.logDebug(string.format("Cleaned %d, adding to existing %d", cleanedCount,totalCleanedItemAmount))
-    totalCleanedItemAmount = totalCleanedItemAmount + (cleanedCount == nill and 0 or cleanedCount)
+    totalCleanedItemAmount = totalCleanedItemAmount + (cleanedCount == nil and 0 or cleanedCount)
     API.logDebug("Opening bank booth")
     --open bank booth
     API.DoAction_Object_string1(0x5, 80, { "Bank booth" }, 50, false)
@@ -240,7 +242,6 @@ local function bank()
         bankAttempt = bankAttempt + 1
         return false
     end
-
 
 end
 
