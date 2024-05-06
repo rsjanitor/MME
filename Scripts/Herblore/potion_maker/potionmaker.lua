@@ -129,7 +129,7 @@ end
 
         --id is the ID of the itemName
     --potionInterfaceID is the ID from doaction and clicking the thing you want to craft.
-local scriptVersion = "1.0"
+local scriptVersion = "1.1"
 local keepRunning = true
 local clickIngredient = true
 local potionList = {

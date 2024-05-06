@@ -1,4 +1,4 @@
-# Potion Maker v1.0
+# Potion Maker
 <link href="/CSS/Scripts/style.css" rel="stylesheet"/>
 
 ![GUI](images/gui_ss.png "GUI")
