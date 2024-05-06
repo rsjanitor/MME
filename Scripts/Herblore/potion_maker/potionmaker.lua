@@ -1,5 +1,5 @@
 --[[
-Instructions & credits can be found in the github: https://github.com/rsjanitor/MME/tree/main/Scripts/Herblore/herb_cleaner
+Instructions & credits can be found in the github: https://github.com/rsjanitor/MME/tree/main/Scripts/Herblore/potion_maker
 --]]
 
 --[[Important IDs to update:
@@ -735,4 +735,4 @@ while API.Read_LoopyLoop() and keepRunning do
 
 end
 
-print("Exiting herbcleaner")
+print("Exiting potioncleaner")
