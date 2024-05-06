@@ -187,6 +187,186 @@ local potionList = {
         ["id"] = 121,
         ["interfaceCategory"] = "Potions",
         ["potionInterfaceID"] = 1
+    },
+    ["Super defence (3)"] = {
+        ["ingredients"] = {
+            ["Cadantine potion (unf)"] = {
+                ["quantity"] = 1,
+                ["id"] = 107,
+                ["useInActionBar"] = true
+            },
+            ["White berries"] = {
+                ["quantity"] = 1,
+                ["id"] = 239,
+                ["useInActionBar"] = false
+            }
+
+        },
+        ["id"] = 163,
+        ["interfaceCategory"] = "Potions",
+        ["potionInterfaceID"] = 173
+    },
+    ["Extreme defence (3)"] = {
+        ["ingredients"] = {
+            ["Super defence (3)"] = {
+                ["quantity"] = 1,
+                ["id"] = 163,
+                ["useInActionBar"] = false
+            },
+            ["Clean lantadyme"] = {
+                ["quantity"] = 1,
+                ["id"] = 2481,
+                ["useInActionBar"] = false
+            }
+
+        },
+        ["id"] = 15317,
+        ["interfaceCategory"] = "Potions",
+        ["potionInterfaceID"] = 301
+    },
+    ["Super magic potion (3)"] = {
+        ["ingredients"] = {
+            ["Potato cactus"] = {
+                ["quantity"] = 1,
+                ["id"] = 3138,
+                ["useInActionBar"] = false
+            },
+            ["Lantadyme potion (unf)"] = {
+                ["quantity"] = 1,
+                ["id"] = 2483,
+                ["useInActionBar"] = true
+            }
+
+        },
+        ["id"] = 3042,
+        ["interfaceCategory"] = "Potions",
+        ["potionInterfaceID"] = 217
+    },
+    ["Extreme magic (3)"] = {
+        ["ingredients"] = {
+            ["Super magic potion (3)"] = {
+                ["quantity"] = 1,
+                ["id"] = 3042,
+                ["useInActionBar"] = false
+            },
+            ["Ground mud runes"] = {
+                ["quantity"] = 1,
+                ["id"] = 9594,
+                ["useInActionBar"] = false
+            }
+
+        },
+        ["id"] = 15321,
+        ["interfaceCategory"] = "Potions",
+        ["potionInterfaceID"] = 309
+    },
+    ["Super attack (3)"] = {
+        ["ingredients"] = {
+            ["Irit potion (unf)"] = {
+                ["quantity"] = 1,
+                ["id"] = 101,
+                ["useInActionBar"] = true
+            },
+            ["Eye of newt"] = {
+                ["quantity"] = 1,
+                ["id"] = 221,
+                ["useInActionBar"] = false
+            }
+
+        },
+        ["id"] = 145,
+        ["interfaceCategory"] = "Potions",
+        ["potionInterfaceID"] = 89
+    },
+    ["Extreme attack (3)"] = {
+        ["ingredients"] = {
+            ["Super attack (3)"] = {
+                ["quantity"] = 1,
+                ["id"] = 145,
+                ["useInActionBar"] = false
+            },
+            ["Clean avantoe"] = {
+                ["quantity"] = 1,
+                ["id"] = 261,
+                ["useInActionBar"] = false
+            }
+
+        },
+        ["id"] = 15309,
+        ["interfaceCategory"] = "Potions",
+        ["potionInterfaceID"] = 289
+    },
+    ["Super ranging potion (3)"] = {
+        ["ingredients"] = {
+            ["Dwarf weed potion (unf)"] = {
+                ["quantity"] = 1,
+                ["id"] = 109,
+                ["useInActionBar"] = true
+            },
+            ["Wine of Zamorak"] = {
+                ["quantity"] = 1,
+                ["id"] = 245,
+                ["useInActionBar"] = false
+            }
+
+        },
+        ["id"] = 169,
+        ["interfaceCategory"] = "Potions",
+        ["potionInterfaceID"] = 193
+    },
+    ["Extreme ranging (3)"] = {
+        ["ingredients"] = {
+            ["Super ranging potion (3)"] = {
+                ["quantity"] = 1,
+                ["id"] = 169,
+                ["useInActionBar"] = false
+            },
+            ["Grenewall spikes"] = {
+                ["quantity"] = 1,
+                ["id"] = 12539,
+                ["useInActionBar"] = false
+            }
+
+        },
+        ["id"] = 15325,
+        ["interfaceCategory"] = "Potions",
+        ["potionInterfaceID"] = 317
+    },
+    ["Super necromancy (3)"] = {
+        ["ingredients"] = {
+            ["Spirit weed potion (unf)"] = {
+                ["quantity"] = 1,
+                ["id"] = 12181,
+                ["useInActionBar"] = true
+            },
+            ["Congealed blood"] = {
+                ["quantity"] = 1,
+                ["id"] = 37227,
+                ["useInActionBar"] = false
+            }
+
+        },
+        ["id"] = 55318,
+        ["interfaceCategory"] = "Potions",
+        ["potionInterfaceID"] = 245
+    },
+    ["Extreme necromancy (3)"] = {
+        ["ingredients"] = {
+            ["Super necromancy (3)"] = {
+                ["quantity"] = 1,
+                ["id"] = 55318,
+                ["useInActionBar"] = false
+            },
+            ["Ground miasma rune"] = {
+                ["quantity"] = 1,
+                ["id"] = 55697,
+                ["useInActionBar"] = false
+            }
+
+        },
+        ["id"] = 55326,
+        ["interfaceCategory"] = "Potions",
+        ["potionInterfaceID"] = 321
     }
     
 }

@@ -18,6 +18,18 @@
   - &check; Snapdragon potion (unf)
   - &check; Super restore (3)
   - &check; Attack potion (3)
+  - &check; Super defence (3)
+  - &check; Extreme defence (3)
+  - &check; Super magic (3)
+  - &check; Extreme magic (3)
+  - &check; Super attack (3)
+  - &check; Extreme attack (3)
+  - &check; Super ranging potion (3)
+  - &check; Extreme ranging (3)
+  - &check; Super necromancy (3)
+  - &check; Extreme necromancy (3)
+
+
 -  Banks at a Bank booth/chest
 - If useInActionBar is set, it will use the ingredient in the actionbar to craft the potion. Otherwise it will look for a portable well.
   - For example, clicking the "Stop script" button and waiting for it to process  or letting the script naturally close out when out of supplies.
