@@ -1,4 +1,4 @@
-# Herb Cleaner v1.0
+# Potion Maker v1.0
 <link href="/CSS/Scripts/style.css" rel="stylesheet"/>
 
 ![GUI](images/gui_ss.png "GUI")
@@ -23,7 +23,7 @@
   - For example, clicking the "Stop script" button and waiting for it to process  or letting the script naturally close out when out of supplies.
 - Stop button
 
-## Adding Additional Herbs
+## Adding Additional Potions
 - Update potionList - you can use the other potions as an example. The comments also give some hints.
 
 ## Credits:
